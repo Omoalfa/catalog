@@ -1,0 +1,66 @@
+@media screen and (min-width : 480px) {
+	.nav-link {
+		margin: 2px;
+		color: #1DBF73;
+		display: inline;
+		font-size: 0.8em;
+	}
+	.card-body {
+	    display: grid;
+	    grid-template-columns: 2fr 3fr;
+	}
+	footer {
+		display: block;
+	}
+	#chat {
+        display: inline-block;
+	}
+}
+@media screen and (min-width : 750px) {
+	#Mnav {
+		display: none;
+	}
+	#Dnav {
+		display: grid;
+		grid-template-columns: auto auto;
+		padding-bottom: 1rem;
+	}
+	.active {
+		display: none !important;
+	}
+
+	.title > h3 {
+	    font-size: 3.5rem !important;
+	}
+	.padding {
+		padding: 2% 7%;
+	}
+	#NavBar {
+		margin: 10px 0;
+	}
+	.nav-link {
+		margin: 0;
+	}
+}
+@media screen and (min-width : 820px) {
+	#NavBar {
+		margin: 10px 0;
+	}
+	.nav-link {
+		margin: 5px 0;
+	}
+
+}
+@media screen and (min-width: 970px) {
+	.active {
+		display: inline-block !important;
+	}
+.not-mob {
+		display: inline-block;
+	}
+}
+@media screen and (min-width: 768px) {
+	.accordion {
+		box-shadow: none !important;
+	}
+}
